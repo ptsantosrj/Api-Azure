@@ -11,11 +11,11 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 
 # Ajuste do caminho do csproj
-COPY ["WebApplication1/WebApplication1/WebApplication1.csproj", "./"]
+COPY ["WebApplication1.csproj", "./"]
 RUN dotnet restore "WebApplication1.csproj"
 
 # Copia o restante do código
-COPY WebApplication1/WebApplication1/. . 
+COPY . ./ 
 
 # Build
 RUN dotnet build "WebApplication1.csproj" -c $BUILD_CONFIGURATION -o /app/build
