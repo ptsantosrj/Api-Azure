@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Temp\\Api-Azure\\WebApplication1\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{110D0FEC-96F8-4327-B9EF-01041BC5EF13}|WebApplication1\\WebApplication1.csproj|c:\\temp\\api-azure\\webapplication1\\webapplication1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{110D0FEC-96F8-4327-B9EF-01041BC5EF13}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Temp\\Api-Azure\\WebApplication1\\WebApplication1\\Dockerfile",
-              "RelativeDocumentMoniker": "WebApplication1\\Dockerfile",
-              "ToolTip": "C:\\Temp\\Api-Azure\\WebApplication1\\WebApplication1\\Dockerfile",
-              "RelativeToolTip": "WebApplication1\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-21T14:19:35.246Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
