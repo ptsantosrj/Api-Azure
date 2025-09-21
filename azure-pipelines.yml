@@ -29,7 +29,7 @@ steps:
   displayName: 'Build Solution'
 
 - script: dotnet test $(solution) --configuration $(buildConfiguration) --no-build --collect:"XPlat Code Coverage"
-  displayName: 'Build Solution'  
+  displayName: 'Test Solution'  
 
 - script: |
     echo "Conteúdo do diretório atual:"
@@ -37,8 +37,10 @@ steps:
   displayName: "Listar arquivos no agente"
 
 - task: Docker@2
+  displayName: 'Build and Push Docker Image'
   inputs:
     containerRegistry: 'Connection -ACR-APIDEMO'
     repository: 'api-dio-test'
     command: 'buildAndPush'
     Dockerfile: './WebApplication1/WebApplication1/Dockerfile'
+    buildContext: './WebApplication1/WebApplication1'
